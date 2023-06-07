@@ -4,13 +4,19 @@ Before beginning to answer questions, take some time to review the data dictiona
 
 #### Provide the SQL queries and answers for the following questions/tasks using the data_analyst_jobs table you have created in PostgreSQL:
 
-1.	How many rows are in the data_analyst_jobs table?
+1.	How many rows are in the data_analyst_jobs table? 
+		*1793*
 
 2.	Write a query to look at just the first 10 rows. What company is associated with the job posting on the 10th row?
+		*EXONMOBILE*
 
 3.	How many postings are in Tennessee? How many are there in either Tennessee or Kentucky?
+		*TN COUNT=21*
+		*TN/KY COUNT=27*
 
 4.	How many postings in Tennessee have a star rating above 4?
+		*3*
+		
 
 5.	How many postings in the dataset have a review count between 500 and 1000?
 
