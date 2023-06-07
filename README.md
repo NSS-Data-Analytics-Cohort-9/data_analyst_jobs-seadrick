@@ -19,8 +19,10 @@ Before beginning to answer questions, take some time to review the data dictiona
 		
 
 5.	How many postings in the dataset have a review count between 500 and 1000?
+		*151*
 
 6.	Show the average star rating for companies in each state. The output should show the state as `state` and the average rating for the state as `avg_rating`. Which state shows the highest average rating?
+		*Nebraska*		
 
 7.	Select unique job titles from the data_analyst_jobs table. How many are there?
 
