@@ -66,6 +66,10 @@ WHERE location = 'CA';
 SELECT company, AVG(star_rating) AS avg_rating
 FROM data_analyst_jobs
 GROUP BY company
+HAVING  COUNT(review_count) > 5000;
+
+
+
 
 
 
@@ -74,4 +78,13 @@ GROUP BY company
 
 
 
+--11.	Find all the job titles that contain the word ‘Analyst’. How many different job titles are there? 
+SELECT DISTINCT title
+FROM data_analyst_jobs
+WHERE title LIKE '%Analyst%';
 
+
+--12.	How many different job titles do not contain either the word ‘Analyst’ or the word ‘Analytics’? What word do these positions have in common?
+SELECT  title
+FROM data_analyst_jobs
+WHERE title NOT LIKE '%Analyst%' AND title NOT LIKE '%Analytics%';
