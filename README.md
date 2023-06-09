@@ -31,14 +31,14 @@ Before beginning to answer questions, take some time to review the data dictiona
 		*231*
 
 9.	Find the name of each company and its average star rating for all companies that have more than 5000 reviews across all locations. How many companies are there with more that 5000 reviews across all locations?
-
+		*46*
 10.	Add the code to order the query in #9 from highest to lowest average star rating. Which company with more than 5000 reviews across all locations in the dataset has the highest star rating? What is that rating?
-
+		*Seemingly a tie between a few compaines--the rating is 4.1999998090000000.
 11.	Find all the job titles that contain the word ‘Analyst’. How many different job titles are there? 
 		*754*
 
 12.	How many different job titles do not contain either the word ‘Analyst’ or the word ‘Analytics’? What word do these positions have in common?
-
+		*4 : Tableau*
 
 **BONUS:**
 You want to understand which jobs requiring SQL are hard to fill. Find the number of jobs by industry (domain) that require SQL and have been posted longer than 3 weeks. 
