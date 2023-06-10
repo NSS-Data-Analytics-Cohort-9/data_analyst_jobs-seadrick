@@ -117,5 +117,6 @@ WHERE skill LIKE '%SQL%'
 	AND days_since_posting > 21
 	AND domain IS NOT NULL 
 	GROUP BY domain
-	ORDER BY job_count
+	ORDER BY hard_to_fill_count DESC
+	LIMIT 4;
 	
